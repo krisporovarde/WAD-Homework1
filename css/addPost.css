@@ -1,0 +1,36 @@
+.container {
+  /* display: flex; */
+}
+
+.textareaContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.textareaContainer > textarea {
+  margin-left: 10px;
+}
+
+.addFileContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.addFileContainer > input {
+  margin-left: 16px;
+}
+
+.createPost {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.createPost > a > button {
+  color: white;
+  background-color: rgb(59, 105, 255);
+  border: none;
+  padding: 7px;
+}

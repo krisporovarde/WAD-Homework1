@@ -5,8 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AddPost</title>
+    <link rel="stylesheet" href="../css/addPost.css" />
   </head>
   <body>
-    <div>test</div>
+    <header>
+      <a href="index.html">
+        <button>Home</button>
+      </a>
+    </header>
+    <div class="container">
+      <div class="textareaContainer">
+        <label for="addPost">Post body</label>
+        <textarea name="addPost" id="addPost" cols="30" rows="10"></textarea>
+      </div>
+      <div class="addFileContainer">
+        <label for="addFile">Select file</label>
+        <input type="file" id="addFile" name="addFile" />
+      </div>
+      <div class="createPost">
+        <a href="index.html"> <button>Create post</button></a>
+      </div>
+    </div>
   </body>
 </html>
