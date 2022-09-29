@@ -1,0 +1,17 @@
+
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+form {
+    margin: auto;
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    height: 185px;
+}
