@@ -83,4 +83,9 @@ li a:hover {
   background-color: rgb(59, 105, 255);
   border: none;
   padding: 5px 15px;
+  cursor: pointer;
+}
+
+.createPost > a > button:hover {
+  background-color: rgb(28, 81, 255);
 }
