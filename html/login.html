@@ -4,22 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
     <link rel="stylesheet" href="../css/login.css">
 </head>
 <body>
 
-<form action="" method="post">
-    <strong>Welcome to PostIt</strong> <br>
-    <a rel="Create an account" href="index.html">Create an account</a> <br>
-    or <br>
-    Please log in <br>
-    <input type="email" placeholder="Email" name="Email" id="" required> <br>
-    <input name="Password" placeholder="Password" id="password" required><br>
-    <button type="Login">Log in</button><br>
-    <a rel="Forget password" href="index.html">Forget password</a> <br>
+<header class="navbar">
+    <ul>
+        <li><a href="index.html"><strong>Home</strong></a></li>
+        <li class="profilePic">
+            <img src="../img/emptyProfile.png" alt="logo" />
+        </li>
+    </ul>
+</header>
 
-</form>
+<div class="container">
+    <form action="" method="post">
+        <strong>Welcome to PostIt</strong> <br>
+        <a rel="Create an account" href="index.html">Create an account</a> <br>
+        or <br>
+        Please log in <br>
+        <input type="email" placeholder="Email" name="Email" id="" required> <br>
+        <input name="Password" placeholder="Password" id="password" required><br>
+        <button type="Login">Log in</button><br>
+        <a rel="Forget password" href="index.html">Forget password</a> <br>
+
+    </form>
+</div>
 
 </body>
 </html>

@@ -15,3 +15,45 @@ form {
     width: 200px;
     height: 185px;
 }
+
+.navbar {
+    background-color: lightgray;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.profilePic {
+    float: right;
+}
+
+.profilePic > img {
+    width: 40px;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: black;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: gray;
+}
+
+.container{
+    margin-top: 20px;
+}
