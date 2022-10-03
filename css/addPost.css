@@ -1,15 +1,65 @@
-.container {
-  /* display: flex; */
+.navbar {
+  background-color: lightgray;
+  height: 50px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  color: black;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: gray;
+}
+
+.profilePic {
+  float: right;
+}
+
+.profilePic > img {
+  width: 40px;
+  padding: 5px;
+}
+
+.formWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.addPost {
+  text-align: right;
+  max-width: 310px;
+  padding: 20px;
+  background: lightgray;
+  border-radius: 12px;
 }
 
 .textareaContainer {
   display: flex;
   justify-content: center;
-  margin-top: 16px;
 }
 
 .textareaContainer > textarea {
-  margin-left: 10px;
+  margin-left: 14px;
+  outline: none;
+  border: none;
+  resize: none;
 }
 
 .addFileContainer {
@@ -25,12 +75,12 @@
 .createPost {
   display: flex;
   justify-content: center;
-  margin-top: 16px;
+  margin-top: 30px;
 }
 
 .createPost > a > button {
   color: white;
   background-color: rgb(59, 105, 255);
   border: none;
-  padding: 7px;
+  padding: 5px 15px;
 }
