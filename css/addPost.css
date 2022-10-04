@@ -44,10 +44,16 @@ li a:hover {
 
 .addPost {
   text-align: right;
-  max-width: 310px;
+  /* max-width: 310px; */
   padding: 20px;
   background: lightgray;
   border-radius: 12px;
+}
+
+@media (max-width: 360px) {
+  .addPost {
+    width: 240px;
+  }
 }
 
 .textareaContainer {
