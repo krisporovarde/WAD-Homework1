@@ -10,22 +10,6 @@ ul {
   overflow: hidden;
 }
 
-li {
-  float: left;
-}
-
-li a {
-  color: black;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 16px 16px;
-  text-decoration: none;
-}
-li a:hover {
-  background-color: gray;
-}
-
 .profilePic {
   float: right;
 }
@@ -34,8 +18,28 @@ li a:hover {
   width: 40px;
   padding: 5px;
 }
+.profilePic > a > img {
+  width: 40px;
+  padding: 5px;
+}
 
-.formWrapper {
+li {
+  float: left;
+}
+
+.navbarElement > a {
+  color: black;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+.navbarElement > a:hover {
+  background-color: gray;
+}
+
+header + div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,7 +48,7 @@ li a:hover {
 
 .addPost {
   text-align: right;
-  /* max-width: 310px; */
+  max-width: 310px;
   padding: 20px;
   background: lightgray;
   border-radius: 12px;

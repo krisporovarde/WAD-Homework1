@@ -1,79 +1,91 @@
 .posts {
-    margin:auto;
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    justify-content: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
 }
 
 .post {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 5px;
-    margin: 10px;
-    border: 3px solid black;
-    border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5px;
+  margin: 10px;
+  border: 3px solid black;
+  border-radius: 15px;
 }
 
 .top_side {
-    display: flex;
-    flex-direction: row;
-    height: 30px;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  width: 100%;
 }
-  
+
 .author {
-    width:50%;
-    justify-content: left;
-    padding: 1%;
+  width: 50%;
+  justify-content: left;
+  padding: 1%;
 }
 
 .date {
-    width: 50%;
-    text-align: right;
-    padding: 1%;
+  width: 50%;
+  text-align: right;
+  padding: 1%;
 }
 
 .content {
-    padding: 2%;
+  padding: 2%;
 }
 
 .bottom_side {
-    display: flex;
-    flex-direction: row;
-    height: 30px;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  width: 100%;
 }
 
 button {
-    border: 0;
-    background: transparent;
+  border: 0;
+  background: transparent;
 }
 
-footer > div{
-    display: flex;
-    flex-direction: row;
-    border: 3px solid black;
-    border-radius: 15px;
+div ~ footer > div {
+  display: flex;
+  flex-direction: row;
+  border: 3px solid black;
+  border-radius: 15px;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  padding: 5px;
+  column-gap: 60px;
+}
+
+@media (max-width: 580px) {
+  div ~ footer > div {
+    column-gap: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  div ~ footer > div {
+    flex-direction: column;
     justify-content: center;
-    width: 50%;
-    margin: auto;
+    align-items: center;
+  }
 }
-
 
 footer > div > a {
-    color: black;
-    padding: 10px;
-    margin: 10px;
+  color: black;
 }
 
 .p::first-letter {
-    font-size: xx-large;
+  font-size: xx-large;
 }
 
 .post:hover {
-    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
 }
-
-
