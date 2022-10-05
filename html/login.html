@@ -1,43 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
-    <link rel="stylesheet" href="../css/login.css" />
-    <link rel="stylesheet" href="../css/addPost.css" />
-  </head>
-  <body>
-    <header class="navbar">
-      <ul>
-        <li class="navbarElement"><a href="index.html">Home</a></li>
-        <li class="profilePic">
-          <a href="login.html">
-            <img src="../img/emptyProfile.png" alt="logo" />
-          </a>
-        </li>
-      </ul>
-    </header>
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login</title>
+  <link rel="stylesheet" href="../css/login.css"/>
+  <link rel="stylesheet" href="../css/addPost.css"/>
+</head>
+<body>
+<header class="navbar">
+  <ul>
+    <li class="navbarElement"><a href="index.html">Home</a></li>
+    <li class="profilePic">
+      <a href="login.html">
+        <img src="../img/emptyProfile.png" alt="logo"/>
+      </a>
+    </li>
+  </ul>
+</header>
 
-    <div class="container">
-      <form action="index.html">
-        <strong>Welcome to PostIt</strong> <br />
-        <a rel="Create an account" href="index.html">Create an account</a>
-        <br />
-        or <br />
-        Please log in <br />
-        <input type="email" placeholder="Email" name="Email" id="" required />
-        <br />
-        <input
-          name="Password"
-          placeholder="Password"
-          id="password"
-          required
-        /><br />
-        <button>Log in</button><br />
-        <a rel="Forget password" href="index.html">Forget password</a> <br />
-      </form>
+<div class="container">
+  <form action="index.html">
+    <strong>Welcome to PostIt</strong> <br/>
+    <a rel="Create an account" href="index.html">Create an account</a>
+    <br/>
+    or <br/>
+    Please log in <br/>
+    <div class="input-email">
+      <input type="email" placeholder="Email" name="Email" id="" required/>
     </div>
-  </body>
+    <div class="input-pass">
+      <input
+              name="Password"
+              placeholder="Password"
+              id="password"
+              required
+      />
+    </div>
+    <div class="login">
+      <button>Log in</button>
+    </div>
+    <a rel="Forget password" href="index.html">Forget password</a> <br/>
+  </form>
+</div>
+</body>
 </html>

@@ -17,3 +17,15 @@ form {
 .container {
   margin-top: 100px;
 }
+
+.input-email{
+  margin-top: 10px;
+}
+
+.input-pass{
+  margin-top: 5px;
+}
+
+.login{
+  margin-top: 5px;
+}
