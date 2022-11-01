@@ -12,12 +12,10 @@ ul {
 
 .profilePic {
   float: right;
-}
-
-.profilePic > img {
   width: 40px;
   padding: 5px;
 }
+
 .profilePic > a > img {
   width: 40px;
   padding: 5px;

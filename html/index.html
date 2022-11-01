@@ -14,16 +14,19 @@
       <ul>
         <li class="navbarElement"><a href="index.html">Home</a></li>
         <li class="navbarElement"><a href="addPost.html">Add Post</a></li>
-        <li class="profilePic">
-          <a href="login.html">
-            <img src="../img/emptyProfile.png" alt="logo" />
-          </a>
+        <li class="dropdownDiv">
+          <div>
+            <img onclick="showInfo()" class="profilePic" src="../img/emptyProfile.png" alt="logo"/>
+            <div class="dropdown-content" id="dropDown">
+              <div class="inner">Sample name</div>
+              <div class="inner">Sample@mail.com</div>
+              <div class="inner">logout</div>
+            </div>
+          </div>
         </li>
       </ul>
     </header>
-    <div class="posts">
-
-    </div>
+    <div class="posts"></div>
     <footer>
       <div>
         <a href="#">Contact</a>
